@@ -6,4 +6,3 @@ pkg/
 .*.swp
 *.log
 /test/tmp/
-/config

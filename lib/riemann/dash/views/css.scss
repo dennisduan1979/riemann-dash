@@ -33,7 +33,7 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-  background: #fff;
+  background: #2A2A2A;
   color: $dark-grey;
 }
 
@@ -65,9 +65,15 @@ html,table {
 
   .server {
     float: right;
+	color: $off-white;
+  }
+  
+  input.server {
+	color: #000;
   }
 
   .load {
+    background: $off-white;
     position: relative;
     margin: 3px;
     float: right;
@@ -222,7 +228,7 @@ html,table {
   color: #000;
 }
 .state.critical, .state.failure, .state.err, .bar.critical, .bar.failure, .bar.err {
-  background: $orange;
+  background: #E3524F;
   color: #000;
 }
 
@@ -423,6 +429,7 @@ h2 {
 
 .grid {
   white-space: nowrap;
+  color: $off-white;
 
   h2 {
     height: 28px;
@@ -522,6 +529,8 @@ h2 {
 }
 
 .flot.view {
+  color: $off-white;
+  
   .legend {
     font-size: 13px;
     color: #000;
@@ -535,8 +544,8 @@ h2 {
 
   .container {
     position: absolute;
-    top: 28px;
-    left: 0;
+    top: 33px;
+    left: 2px;
     right: 0;
     bottom: 0;
   }
